@@ -1,0 +1,20 @@
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr; /* By default, one column for mobile */
+    row-gap: 10px;
+  }
+  
+  /* Media query for tablets and larger screens */
+  @media (min-width: 768px) {
+    .card-container {
+      grid-template-columns: 1fr 1fr; /* Two columns for tablets */
+    }
+  }
+  
+  /* Media query for larger screens, e.g., desktops */
+  @media (min-width: 1024px) {
+    .card-container {
+      grid-template-columns: 1fr 1fr 1fr; /* Three columns for larger screens */
+    }
+  }
+  

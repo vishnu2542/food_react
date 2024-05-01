@@ -1,0 +1,44 @@
+.place-order-container {
+    text-align: center;
+    margin-top: 100px;
+    animation: fadeIn 0.5s ease-in-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .place-order-title {
+    font-size: 36px;
+    color: #4c00b4;
+    margin-bottom: 20px;
+  }
+  
+  .place-order-message {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .place-order-icon {
+    font-size: 60px;
+    color: #4c00b4;
+    margin-bottom: 20px;
+    animation: bounce 1s infinite alternate;
+  }
+  
+  @keyframes bounce {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-10px);
+    }
+  }
+  

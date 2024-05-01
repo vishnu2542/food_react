@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "name": "Restaurant A",
+      "location": "Rajpura",
+      "image": "restaurant1.jpg",
+      "description": "Description of Restaurant A"
+    },
+    {
+      "id": 2,
+      "name": "Restaurant B",
+      "location": "Chandigarh",
+      "image": "restaurant2.jpg",
+      "description": "Description of Restaurant B"
+    },
+    {
+      "id": 3,
+      "name": "Restaurant C",
+      "location": "Patiala",
+      "image": "restaurant3.jpg",
+      "description": "Description of Restaurant C"
+    }
+  ]
+  
