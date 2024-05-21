@@ -3,6 +3,7 @@ import './Signin.css'
 import email_icon from "../assets/email.png"
 import password_icon from "../assets/password.png"
 import Navbar from '../components/Navbar/Navbar'
+import Footer from '../components/Footer'
 
 const Signin = () => {
     const[action,setAction]=useState("Login")
@@ -33,7 +34,9 @@ const Signin = () => {
         <div className={action==="Sign Up"?"submit gray":"submit"} onClick={()=>{setAction("Login")}}>Login</div>
       </div>
      
-    </div></>
+    </div>
+    <Footer/>
+    </>
   )
 }
 

@@ -26,7 +26,7 @@ const Contact = () => {
       <div className="about-section">
         <h2>About Us</h2>
         <div className="about">
-          <img src="chef.jpg" alt="Chef Image" />
+          
           <p>Welcome to Food Delivery, your go-to place for delicious meals delivered right to your doorstep. Our team of talented chefs and delivery staff work tirelessly to bring you the best dining experience without leaving your home.</p>
           <p>With a focus on quality ingredients and exceptional service, we strive to make every meal memorable. Whether you're craving comfort food, exotic flavors, or healthy options, we have something for everyone.</p>
           <p>Thank you for choosing Food Delivery. We look forward to serving you!</p>

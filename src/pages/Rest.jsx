@@ -1,15 +1,11 @@
 
 import React from "react";
-import { data } from "../assets/restraunt_data";
+import { data } from "../assets/rest";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
-
-
-
-const Restaurant = () => {
-
-  return <React.Fragment>
+const Rest = () => {
+    return <React.Fragment>
     
 
     <main
@@ -56,7 +52,6 @@ const Card = ({ name, image, desc, location,index }) => {
       delay: 0.1 * index
     }}
     style={{ width: "25rem", overflow: "hidden", padding: "1rem", height: "35rem", background: "#FF6500", borderRadius: "4rem", display: "flex", flexDirection: "column", justifyItems: "flex-start", alignItems: "center" }}>
-    
     <div style={{
       width: "100%",
       height: "60%",
@@ -77,5 +72,5 @@ const Card = ({ name, image, desc, location,index }) => {
   </motion.div>
   )
 }
+export default Rest
 
-export default Restaurant;

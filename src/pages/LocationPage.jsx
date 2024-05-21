@@ -8,9 +8,17 @@ function LocationPage() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (location.toLowerCase() === 'rajpura' || location.toLowerCase() === 'chandigarh' || location.toLowerCase() === 'patiala') {
+    if (location.toLowerCase() === 'rajpura') {
       navigate('/restaurant');
-    } else {
+    } 
+    else if(location.toLocaleLowerCase()==='chandigarh'){
+      navigate('/res');
+    }
+
+    else if(location.toLocaleLowerCase()==='patiala'){
+      navigate('/rest');
+    }
+    else {
       alert('Sorry, we don\'t have restaurants in your location.');
     }
   };

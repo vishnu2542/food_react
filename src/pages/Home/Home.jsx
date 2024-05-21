@@ -6,6 +6,7 @@ import { food_list } from '../../assets/assets';
 import FoodMenu from '../../components/FoodMenu';
 import Navbar from '../../components/Navbar/Navbar';
 import CartSidebar from '../Cart/Cart';
+import Footer from '../../components/Footer';
 
 const Home = () => {
   const [category, setCategory] = useState(null);
@@ -44,6 +45,7 @@ const Home = () => {
           ))}
       </div>
       <CartSidebar cartItems={cartItems} setCartItems={setCartItems} isOpen={isCartOpen} toggleCart={toggleCart} /> 
+      <Footer/>
     </>
   );
 };

@@ -15,7 +15,7 @@ const Card = ({ item, addToCart }) => {
       <div className="card-info">
         <h2>{item.name}</h2>
         <p>{item.description}</p>
-        <p className='price'>Price: ${item.price}</p>
+        <p className='price'>Price: £{item.price}</p>
         <button onClick={handleClick}>Add to Cart</button>
       </div>
     </div></div> 
