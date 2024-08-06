@@ -1,6 +1,6 @@
+/* aditya sharma */
 .header{
     height: 75vh;
-
     margin: 30px auto;
     background: url('/burger.jpg') no-repeat;
     background-size: cover;
@@ -14,10 +14,13 @@
 
 .header-contents{
     position: absolute;
+    
     display: flex;
     flex-direction: column;
+    
     align-items: start;
     gap:1.5vw;
+    
     max-width:50% ;
    
     left: 6vw;
